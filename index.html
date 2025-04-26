@@ -399,8 +399,101 @@
             </li>
         </ul>
        </div>
+       
+        <form action="form-email" class="footer-form-useremail">
+            <div class="footer-form-container">
+                <label for="form-useremail" class="footer-email-label"> Subscribe</label>
+                <input type="text" name="form_user" id="#form-useremail" placeholder="E-mail"
+                class="footer-email-form"
+                >
+            </div>
+            <button type="submit" class="footer-subscribe-btn">
+                Subscribe
+            </button>
+            <svg width="24" height="24" class="footer-btn-icon">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
+        </form>
    </div>
    </footer>
+<!-- #region popup banner -->
+ <div class="modal-overlay is-open">
+  <div class="modal">
+    <button type="submit" class="modal-close-btn">
+        <svg width="8" height="8" class="modal-close">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+    <h3 class="modal-title">Leave your contacts and we will call you back</h3>
+    <form action="modal-window">
+        <div>
+            <label for="form-username" class="modal-text-name">Name</label>
+            <div class="popup-input-wrapper">
+                <input
+                type="text"
+                name="form_username"
+                id="form-username"
+                class="modal-popup-input"
+                >
+                <svg width="19" height="18" class="modal-input-icon">
+                    <use href="./images/icons.svg#icon-name"></use>
+                </svg>
+            </div>
+        </div>
+        <div>
+            <label for="form-userphone" class="modal-text-name">Phone</label>
+            <div class="popup-input-wrapper">
+                <input
+                type="tel"
+                name="form_userphone"
+                id="form-userphone"
+                class="modal-popup-input"
+                >
+                <svg width="19" height="24" class="modal-input-icon">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+            </div>
+        </div>
+        <div>
+            <label for="form-email" class="modal-text-name">Email</label>
+            <div class="popup-input-wrapper">
+                <input
+                type="email"
+                name="form_useremail"
+                id="form-email"
+                class="modal-popup-input"
+                >
+                <svg width="19" height="24" class="modal-input-icon">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+            </div class="popup-input-wrapper">
+        </div>
+        <div>
+            <label for="form-usercomment" class="modal-text-name" >Comment</label>
+            <div class="popup-input-wrapper">
+                <textarea
+                name="form_usercomment"
+                id="form-usercomment"
+                placeholder="Text input"
+                class="modal-popup-textarea"
+                >
+               </textarea>
+            </div>
+        </div>
+        <div>
+            <input 
+            type="checkbox" 
+            name="form_userprivacy" 
+            id="form-userprivacy"
+            >
+            <label for="form-userprivacy" class="form-privacy-text">I accept the terms and conditions of the <a href="#" class="link-privacy">Privacy Policy</a></label>
+        </div>
+        <button type="submit" class="modal-send-button">Send</button>
+    </form>
+  </div>
+
+ </div>
+<!-- #endregion popup banner -->
 </body>
 </html>
 
