@@ -417,7 +417,7 @@
    </div>
    </footer>
 <!-- #region popup banner -->
- <div class="modal-overlay is-open">
+ <div class="modal-overlay">
   <div class="modal">
     <button type="submit" class="modal-close-btn">
         <svg width="8" height="8" class="modal-close">
@@ -479,15 +479,25 @@
                 ></textarea>
             </div>
         </div>
-        <div>
+        <div class="modal-chekbox-wrapper">
             <input 
             type="checkbox" 
             name="form_userprivacy" 
             id="form-userprivacy"
+            class="visually-hidden"
             >
-            <label for="form-userprivacy" class="form-privacy-text">I accept the terms and conditions of the <a href="#" class="link-privacy">Privacy Policy</a></label>
+            <label for="form-userprivacy" class="form-privacy-text">
+                <span class="modal-custom-chekbox">
+                    <svg width="10" height="8" class="modal-chekbox-svg">
+                        <use href="./images/icons.svg#icon-vector"></use>
+                    </svg>
+                </span>
+                I accept the terms and conditions of the <a href="#" class="link-privacy">Privacy Policy</a>
+           
+            </label>
         </div>
-        <button type="submit" class="modal-send-button">Send</button>
+        <div class="modal-button">
+            <button type="submit" class="modal-send-button">Send</button></div>
     </form>
   </div>
 
