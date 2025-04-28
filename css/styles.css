@@ -847,9 +847,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 .link-privacy{
@@ -884,7 +881,7 @@ img {
     
 }
 
-.modal-chekbox-wrapper input:checked + label .modal-chekbox-svg {
+.modal-chekbox-wrapper input:checked + label span .modal-chekbox-svg {
     fill: #f4f4fd;
     stroke: none;
 }
