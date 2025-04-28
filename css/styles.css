@@ -875,13 +875,13 @@ img {
 }
 
 
-.modal-chekbox-wrapper input:checked + label .modal-custom-chekbox {
+.modal-chekbox:checked + label .modal-custom-chekbox {
     background-color: #404bbf;
     border: none;
     
 }
 
-.modal-chekbox-wrapper input:checked + label span .modal-chekbox-svg {
+.modal-chekbox:checked + label .modal-chekbox-svg {
     fill: #f4f4fd;
     stroke: none;
 }
