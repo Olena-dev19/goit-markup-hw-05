@@ -614,7 +614,7 @@ img {
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
-    height: 39px;
+    height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding-left: 16px;
@@ -737,6 +737,7 @@ img {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     background-color: #404BBF;
+    border: none;
 }
 
 .modal-close-btn:hover .modal-close,
