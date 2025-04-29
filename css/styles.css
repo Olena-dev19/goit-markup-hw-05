@@ -869,7 +869,7 @@ img {
     fill: transparent;
 }
 .modal-chekbox-svg{
-    fill:none;
+    
     stroke: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -878,12 +878,9 @@ img {
 .modal-chekbox:checked + label .modal-custom-chekbox {
     background-color: #404bbf;
     border: none;
-    
-}
-
-.modal-chekbox:checked + label .modal-chekbox-svg {
     fill: #f4f4fd;
 }
+
 
 
 .modal-send-button {
