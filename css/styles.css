@@ -883,7 +883,6 @@ img {
 
 .modal-chekbox:checked + label .modal-chekbox-svg {
     fill: #f4f4fd;
-    stroke: none;
 }
 
 
